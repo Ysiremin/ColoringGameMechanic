@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tile : MonoBehaviour, IIntertactable
+public class Tile : MonoBehaviour, IInteractable
 {
     private Renderer rnd;
     private void Awake()
     {
         rnd = GetComponent<Renderer>();
     }
-    public void Intrect()
+    public void Interact()
     {
         rnd.material = Palette.Instance.GetMaterial();
     }

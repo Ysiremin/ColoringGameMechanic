@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChangeColor : MonoBehaviour, IIntertactable
+public class ChangeColor : MonoBehaviour, IInteractable
+
 {
     private Renderer rnd;
     public Type currentType = Type.Forward;
@@ -11,7 +12,7 @@ public class ChangeColor : MonoBehaviour, IIntertactable
         rnd = GetComponent<Renderer>();
         Palette.Instance.OnSetMaterial += OnSetMaterial;
     }
-    public void Intrect()
+    public void Interact()
     {
         switch (currentType)
         {

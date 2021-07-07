@@ -23,9 +23,9 @@ public class RayCaster : MonoBehaviour
 
             if (Physics.Raycast(ray, out RaycastHit hit))
             {
-                if (hit.transform.TryGetComponent(out IIntertactable ýntertactable))
+                if (hit.transform.TryGetComponent(out IInteractable Interactable))
                 {
-                    ýntertactable.Intrect();
+                    Interactable.Interact();
                 }
             }
         }
