@@ -8,7 +8,5 @@ Any suggestion or question please feel free to contact me yasireminciftci@gmail.
 Yasir Emin ÇİFTÇİ (<a href="https://github.com/Ysiremin">https://github.com/Ysiremin</a>)<br>
 <br>
 ![Alt text](https://i.hizliresim.com/k1idm6o.PNG "In-Game Screenshot")
-<br>
-
 Script Language:C#<br>
 Platform:Unity3D<br>
